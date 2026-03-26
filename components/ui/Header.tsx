@@ -4,7 +4,7 @@ import { BenzinLink } from "./BenzinLink"
 
 export function Header() {
   return (
-    <header className="sticky z-50 bg-background/80 backdrop-blur-xs px-6 py-4 flex items-center justify-between font-zcool w-full max-w-4xl rounded-full top-1">
+    <header className="sticky z-50 bg-background/80 backdrop-blur-xs px-4 md:px-6 py-3 md:py-4 flex items-center justify-between font-zcool w-full max-w-4xl rounded-full top-1">
       <Link href={PUBLIC_PAGES.HOME}>
         <span className="text-xl md:text-2xl hover:opacity-80 transition-opacity">
           NiktaBenzin
