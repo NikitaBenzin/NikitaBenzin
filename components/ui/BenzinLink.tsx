@@ -9,7 +9,7 @@ interface Props extends AnchorHTMLAttributes<HTMLAnchorElement> {
 export function BenzinLink({ href, title, ...props }: Props) {
   return (
     <Link
-      className="hover:underline hover:text-accent duration-300"
+      className="active:text-accent hover:underline hover:text-accent duration-300"
       href={href}
       {...props}
     >
